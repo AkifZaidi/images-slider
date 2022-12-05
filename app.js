@@ -28,3 +28,7 @@ function previous(){
    
   tag.src = images[currentImages]
 }
+
+setIntervel(function(){
+  next()
+},1000)
